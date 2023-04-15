@@ -20,8 +20,8 @@ body {
 
 svg text {
  font: 1em sans-serif;
- text-anchor: right;
- }
+/* text-anchor: right;
+*/ }
 
 .green {
 	color: #20B2AA;
@@ -55,6 +55,13 @@ ul {
 
 .sum {
 	color: #32CD32;
-	padding-top: 5em;
+	padding-top: 2.5em;
 	padding-left: 5em;
+	border: 1px solid white;
+	border-left: none;
+	margin-top: 2.5em;
+	margin-bottom: 2em;
+}
+p {
+	padding: 20px;
 }
